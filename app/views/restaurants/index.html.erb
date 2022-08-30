@@ -1,0 +1,11 @@
+Pikachu!
+
+<ul>
+  <% @restaurants.each do |restaurant| %>
+    <li>
+    <%=restaurant.name%> |
+    <%= restaurant.phone_number%> |
+    <%= restaurant.address%>
+    </li>
+  <% end %>
+</ul>

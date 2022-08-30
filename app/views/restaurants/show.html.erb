@@ -1,0 +1,5 @@
+Hello
+
+<%= link_to "Delete this Restaurant", restaurant_path(@restaurant), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>
+
+<%= link_to "Edit this Restaurant", edit_restaurant_path(@restaurant) %>
